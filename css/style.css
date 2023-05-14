@@ -64,3 +64,7 @@ object{
 #secTecTools{
     background-color: var(--secondColor);
 }
+
+.text-big{
+    font-size: 6rem;
+}
