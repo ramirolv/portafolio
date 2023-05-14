@@ -1,2 +1,1 @@
-# portafolio
- Portafolio de proyectos de desarrollo
+Portafolio de proyectos de programación y desarrollo
