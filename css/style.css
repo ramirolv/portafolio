@@ -70,10 +70,14 @@ object{
 }
 
 
+/* fondo para el item activo de la barra de navegación */
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: var(--firstColor);
+}
 
 
-
-
+/* clase para iconos de la grilla de aptitudes humanas*/
 .service-icon {
     background-color: #fff;
     color: #1D809F;
