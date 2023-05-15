@@ -13,6 +13,8 @@
     
     <!-- Estilos personalizados-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/galleryPhotos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
 
     <title>Portafolio Ramiro López</title>
 </head>
@@ -301,9 +303,66 @@
   </div>
   
 
-    <!-- Script para procesado de animaciones bootstrap -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
 
+  <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+          <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                  <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                  <div class="modal-body text-center pb-5">
+                      <div class="container">
+                          <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                  <!-- Portfolio Modal - Title-->
+                                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dimarcu's Pizza</h2>
+                                  <!-- Icon Divider-->
+                                  <div class="divider-custom">
+                                      <div class="divider-custom-line"> <hr class="hr"> </div>
+                                      <div class="divider-custom-icon"><i class="bi bi-star-fill"></i></div>
+                                      <div class="divider-custom-line"></div>
+                                  </div>
+                                  <!-- Portfolio Modal - Image-->
+                                  <a href="https://www.facebook.com/dimarcuspizzas/"><img class="img-fluid rounded mb-5" src="https://scontent.fgua4-1.fna.fbcdn.net/v/t39.30808-6/243130229_249619927175084_6386999320689071273_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pLpzWA9lM9cAX-jYvuC&_nc_ht=scontent.fgua4-1.fna&oh=00_AfCVKVrRRa5_x9KGSYQeex3EWjCFq8Pn_BNZCKZOwQbSZA&oe=64674D3A" alt="..." width="200px"/></a>
+                                  <!-- Portfolio Modal - Text-->
+                                  <p class="mb-4">Dimarcu's Pizza es un restaurante reconocido en el municipio de Tacaná, su especialidad es la preparación de deliciosas Pizzas en diferentes sabores y tamaños</p>
+                                  <h4 class="h4">Caso de estudio:</h4>
+                                  <p class="mb-4">Al incrementar la demanda de pedidos tuvieron problemas para controlar de forma manual la cantidad de pedidos que al final del día casa también falencias en el flujo de caja por lo que el dueño ha deseado implementar un sistema web que pueda ofrecer un registro eficiente en tiempo real</p>
+                                  
+
+                                  <div class="photo-gallery">
+                                    <div class="container">
+                                        <div class="intro">
+                                            <h2 class="text-center">Lightbox Gallery</h2>
+                                            <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+                                        </div>
+                                        <div class="row photos">
+                                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="./img/Dimarcus/img1.png" data-lightbox="photos"><img class="img-fluid" src="./img/Dimarcus/img1.png"></a></div>
+                                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="./img/Dimarcus/img2.png" data-lightbox="photos"><img class="img-fluid" src="./img/Dimarcus/img2.png"></a></div>
+                                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="./img/Dimarcus/img3.png" data-lightbox="photos"><img class="img-fluid" src="./img/Dimarcus/img3.png"></a></div>
+                                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="./img/Dimarcus/img4.png" data-lightbox="photos"><img class="img-fluid" src="./img/Dimarcus/img4.png"></a></div>
+                                            <div class="col-sm-6 col-md-4 col-lg-3 item"><a href="./img/Dimarcus/img5.png" data-lightbox="photos"><img class="img-fluid" src="./img/Dimarcus/img5.png"></a></div>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  
+                                  <button class="btn btn-primary" data-bs-dismiss="modal">
+                                      <i class="bi bi-x-circle-fill"></i>
+                                      Cerrar
+                                  </button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+    <!-- Script para procesado de animaciones bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <!-- Cierre de Script para procesado de animaciones bootstrap -->
     <script src="./js/scripts.js"></script>
   </body>
